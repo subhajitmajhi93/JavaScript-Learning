@@ -61,11 +61,11 @@ const course = {
     courseInstructor: "hitesh"
 }
 
-// course.courseInstructor
+console.log("A",course.courseInstructor) 
 
 const {courseInstructor: instructor} = course
 
-// console.log(courseInstructor);
+ //console.log(courseInstructor);
 console.log(instructor);
 
 // {
